@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<!--
+Universidad Tecnológica Metropolitana
+Aplicaciones Web
+Mtra. Ruth Martínez
+Practicas
+Karla Patricia Cuevas Cab
+3 B
+ -->
+ 
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Registro de XV años</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 5% auto; 
+            text-align: center;
+            padding-top: 50px;
+            border: 2px solid #4e87a3; 
+            padding: 20px; 
+        }
+        form {
+            margin-top: 20px;
+            text-align: left;
+        }
+        input[type="text"] {
+            width: 45%;
+            padding: 8px;
+            margin-bottom: 20px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #af4c7a;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: block;
+            margin: 0 auto; 
+        }
+
+        .input-container {
+            text-align: center; 
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="container">
+        <h2>Llene los siguientes datos para registrarte al evento</h2> 
+        <p>Fecha del evento:4 de agosto de 2024</p>
+        <p>Dirección del evento: <strong>Zamna Salon de Eventos C. 81 405, San Antonio Kaua, 97195 Mérida, Yuc.</strong></p> 
+        <p>Ubicación:</p> 
+        <iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=520&amp;height=400&amp;hl=en&amp;q=Zamna%20Salon%20de%20Eventos%20C.%2081%20405,%20San%20Antonio%20Kaua,%2097195%20M%C3%A9rida,%20Yuc.%20+()&amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>   
+        <form action="#" method="post"> 
+            <div class="input-container">
+                <label for="nombre">Nombre:</label><br> 
+                <input type="text" id="nombre" name="nombre" placeholder="Ingrese su nombre" required><br>                
+                <label for="apellido">Apellido:</label><br> 
+                <input type="text" id="apellido" name="apellido" placeholder="Ingrese su apellido" required><br> 
+            </div>
+            <input type="submit" value="Registrarse"> 
+        </form>
+    </div>
+</body>
+</html>

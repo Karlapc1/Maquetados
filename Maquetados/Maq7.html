@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<!--
+Universidad Tecnológica Metropolitana
+Aplicaciones Web
+Mtra. Ruth Martínez
+Practicas
+Karla Patricia Cuevas Cab
+3 B
+ -->
+ 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boogle</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column; 
+        }
+        .header {
+            background-color: #b162ae; 
+            padding: 10px;
+            color: white; 
+            width: 100%; 
+            position: fixed; 
+            top: 0; 
+            z-index: 1000; 
+            display: flex; 
+            justify-content: space-between;
+            align-items: center; 
+        }
+        .nav-links {
+            display: flex; 
+            gap: 20px; 
+            margin-right: 20px; 
+            width: 100%; 
+        }
+        .nav-links a {
+            color: white; 
+            text-decoration: none; 
+            font-size: 14px; 
+            padding: 0 10px; 
+            border-radius: 5px; 
+        }
+        .header-right {
+            display: flex; 
+            gap: 20px; 
+            margin-left: auto; 
+            padding-left: 40px; 
+        }
+        .footer {
+            background-color: #f1f1f1; 
+            padding: 10px;
+            text-align: center; 
+            position: fixed; 
+            width: 100%; 
+            bottom: 0; 
+        }
+        .boogle-text {
+            font-size: 48px; 
+            margin-top: 20px; 
+            text-align: center; 
+        }
+        .search-container {
+            text-align: center; 
+            margin-top: 20px; 
+        }
+        .search-container input[type="text"] {
+            padding: 10px; 
+            width: 300px; 
+            border-radius: 20px; 
+            border: 1px solid #ccc; 
+            font-size: 16px; 
+            outline: none; 
+            margin-bottom: 10px; 
+        }
+        .search-container input[type="submit"] {
+            padding: 10px 20px; 
+            border: none; 
+            border-radius: 20px; 
+            background-color: #b162ae; 
+            color: white; 
+            cursor: pointer; 
+            font-size: 16px; 
+            outline: none; 
+            margin-right: 10px; 
+        }
+        .logo {
+            text-align: center; 
+            padding: 0 20px; 
+            border-radius: 5px; 
+            background-color: #b162ae; 
+        }
+        .header-right a {
+            padding: 0 10px; 
+            border-radius: 5px; 
+            background-color: #b162ae; 
+            color: white; 
+            text-decoration: none; 
+            margin-left: 10px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div>
+            <div class="nav-links">
+                <a href="#">Gmail</a>
+                <a href="#">Imágenes</a>
+                <a href="#">Mapas</a>
+                <a href="#">Noticias</a>
+            </div>
+        </div>
+        <div class="header-right">
+            <div><a href="#">Boogle</a></div>
+            <div><a href="#">Sing in</a></div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="boogle-text">Boogle</div>
+        <div class="search-container">
+            <form action="#" method="get">
+                <input type="text" name="q" placeholder="Buscar en Boogle...">
+                <br>
+                <input type="submit" value="Buscar">
+            </form>
+        </div>
+    </div>
+    <div class="footer">
+        &copy; 2024 Boogle
+    </div>
+</body>
+</html>

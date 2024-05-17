@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+
+<!--
+Universidad Tecnológica Metropolitana
+Aplicaciones Web
+Mtra. Ruth Martínez
+Practicas
+Karla Patricia Cuevas Cab
+3 B
+ -->
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 90vh; 
+        }
+        form {
+            width: 90%;
+            max-width: 600px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="url"],
+        input[type="date"],
+        input[type="time"],
+        input[type="datetime-local"],
+        input[type="month"],
+        input[type="week"],
+        input[type="tel"],
+        input[type="search"],
+        input[type="color"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #ce6ab5;
+            color: white;
+            cursor: pointer;
+        }
+       
+    </style>
+</head>
+<body>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email">
+        
+        <label for="url">URL:</label>
+        <input type="url" id="url" name="url">
+        
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha">
+        
+        <label for="tiempo">Tiempo:</label>
+        <input type="time" id="tiempo" name="tiempo">
+        
+        <label for="fecha-hora">Fecha y Hora:</label>
+        <input type="datetime-local" id="fecha-hora" name="fecha-hora">
+        
+        <label for="mes">Mes:</label>
+        <input type="month" id="mes" name="mes">
+        
+        <label for="semana">Semana:</label>
+        <input type="week" id="semana" name="semana">
+        
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono">
+        
+        <label for="busqueda">Término de Búsqueda:</label>
+        <input type="search" id="busqueda" name="busqueda">
+        
+        <label for="color">Color Favorito:</label>
+        <input type="color" id="color" name="color">
+        
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

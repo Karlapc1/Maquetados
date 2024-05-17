@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<!--
+Universidad Tecnológica Metropolitana
+Aplicaciones Web
+Mtra. Ruth Martínez
+Practicas
+Karla Patricia Cuevas Cab
+3 B
+ -->
+ 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novelas Juveniles</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 70%;
+            margin: auto;
+            padding: 20px;
+        }
+        .section-title {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .book-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .book {
+            width: calc(25% - 20px); 
+            background-color: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .book img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .book h2 {
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+        .book p {
+            margin: 5px 0;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="section-title">Novelas Juveniles</h1>
+        <div class="book-container">
+            <div class="book">
+                <img src="img1.jpg">
+                <h2>Antes de diciembre</h2>
+                <p>Autor: Joana Marcús</p>
+                <p>Precio: $300</p>
+            </div>
+            <div class="book">
+                <img src="img2.jpg">
+                <h2>Pecados Placenteros 1 - Lascivia</h2>
+                <p>Autor: Eva Muñoz</p>
+                <p>Precio: $346</p>
+            </div>
+
+            <div class="book">
+                <img src="img3.jpg">
+                <h2>El rey oscuro</h2>
+                <p>Autor: Jessica Rivas</p>
+                <p>Precio: $399</p>
+            </div>
+  
+            <div class="book">
+                <img src="img4.jpg">
+                <h2>Hasta Que Nos Quedemos Sin Estrellas</h2>
+                <p>Autor: Inma Rubiale</p>
+                <p>Precio: $294</p>
+            </div>
+
+            <div class="book">
+                <img src="img5.jpg">
+                <h2>H de Harry</h2>
+                <p>Autor:  Darlis Stefany</p>
+                <p>Precio: $599.99</p>
+            </div>
+
+            <div class="book">
+                <img src="img6.jpg">
+                <h2>Irresistible error</h2>
+                <p>Autor: Melissa Ibarra </p>
+                <p>Precio: $349</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

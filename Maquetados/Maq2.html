@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+
+<!--
+Universidad Tecnológica Metropolitana
+Aplicaciones Web
+Mtra. Ruth Martínez
+Practicas
+Karla Patricia Cuevas Cab
+3 B
+ -->
+ 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maquetado 2</title> 
+  <style>
+            body {
+            font-family: Arial, sans-serif;
+            background-color:white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 750px;
+            max-width: 750px; 
+            background-color: black;
+            border: black 2px solid;
+            margin: 10px auto; 
+            padding: 0 20px; 
+            box-sizing: border-box; 
+        }
+
+        
+        header{
+            width: 95%;
+            height: 250px;
+            background-color: rgb(31, 139, 226);
+            margin: 10px 0; 
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px; 
+        }
+
+        .header-content {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end; /* Alinea los elementos a la derecha */
+        }
+
+        .banner {
+            width: 75%; 
+            height: 90%;
+            background-color: white;
+            border: 3px solid black; 
+        }
+
+        .logo{
+            width: 150px; /* Ancho fijo */
+            height: 223px;
+            background-color: white; /* Mismo color que el banner */
+            border: 3px solid black; /* Borde negro */
+            margin-bottom: 10px; /* Margen inferior entre las cajas */
+        }
+            
+
+
+        nav {
+            width: 95%;
+            height: 100px;
+            background-color: #3CB371	;
+            margin: 10px 0;
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px; 
+        }
+
+        nav .box {
+            width: 20%; 
+            height: 80px;
+            background-color: white;
+            border: 2px solid blue; 
+            margin-right: 10px; 
+        }
+
+        main {
+            width: 95%;
+            height: 500px;
+            background-color: rgba(211, 211, 211, 0.779); 
+            margin: 10px 0; 
+            border: 2px solid black;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 20px; 
+        }
+
+        aside {
+            width: 25%; 
+            height: 480px;
+            background-color: white; 
+            border: 2px solid yellow; 
+            margin: 10px 0;
+        }
+
+
+        article {
+            width: 70%; 
+            height: 480px;
+            background-color: white; 
+            border: 2px solid yellow; 
+            margin: 10px 0;
+        }
+
+
+
+        footer {
+            width: 95%;
+            height: 50px;
+            background-color: orange; 
+            margin: 10px 0; 
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0 20px; 
+        }
+  </style>
+
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="banner">Banner</div>
+            <div class="header-content">
+                <div class="logo">Logo</div>
+            </div>
+        </header>
+
+        <nav></nav>
+        
+  
+        <main>
+            <article>Article</article>
+            <aside>Aside</aside>
+        </main>
+
+        <footer></footer>
+    </div>
+</body>
+</html>
